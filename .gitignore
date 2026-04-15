@@ -1,0 +1,3 @@
+*.pem
+*.swp
+ansible.log
