@@ -1,0 +1,4 @@
+    - name: Restart web service
+      ansible.builtin.service:
+        name: "{{ web_service[ansible_os_family] }}"
+        state: restarted

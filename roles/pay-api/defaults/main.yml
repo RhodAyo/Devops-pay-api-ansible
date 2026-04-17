@@ -1,0 +1,18 @@
+# group_vars/all — variables for every host
+
+web_package:
+  RedHat: httpd
+  Debian: apache2
+
+web_service:
+  RedHat: httpd
+  Debian: apache2
+
+project_name: pay-api
+environment_name: staging
+team_email: devops@payapi.example.com
+app_version: "1.1.0"
+db_name: payapi_staging
+db_port: 3306
+
+
